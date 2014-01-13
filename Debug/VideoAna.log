@@ -1,0 +1,42 @@
+﻿Build started 12/25/2013 2:12:57 AM.
+     1>Project "E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\VideoAna.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\VideoAna.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VideoAna.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\VideoAna.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp PicBox.cpp VideoAna.cpp VideoAnaDoc.cpp VideoAnaView.cpp
+         VideoAnaView.cpp
+         VideoAnaDoc.cpp
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(415): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(417): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(430): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(442): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(641): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\college\cs 455\cs455final\videoanaframework3_demo\videoanadoc.cpp(664): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         VideoAna.cpp
+         PicBox.cpp
+         MainFrm.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\VideoAna.res" VideoAna.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Debug\VideoAna.exe" /INCREMENTAL /NOLOGO strmiids.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Debug\VideoAna.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Debug\VideoAna.lib" /MACHINE:X86 /SAFESEH Debug\VideoAna.res
+         Debug\MainFrm.obj
+         Debug\PicBox.obj
+         Debug\stdafx.obj
+         Debug\VideoAna.obj
+         Debug\VideoAnaDoc.obj
+         Debug\VideoAnaView.obj
+     1>MainFrm.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         VideoAna.vcxproj -> E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Debug\VideoAna.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\VideoAna.unsuccessfulbuild".
+         Touching "Debug\VideoAna.lastbuildstate".
+     1>Done Building Project "E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\VideoAna.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.66

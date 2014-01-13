@@ -1,0 +1,42 @@
+﻿Build started 12/25/2013 2:15:37 AM.
+     1>Project "E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\VideoAna.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\VideoAna.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\VideoAna.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\VideoAna.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp PicBox.cpp VideoAna.cpp VideoAnaDoc.cpp VideoAnaView.cpp
+         MainFrm.cpp
+         PicBox.cpp
+         VideoAna.cpp
+         VideoAnaDoc.cpp
+     1>VideoAnaDoc.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+     1>VideoAnaDoc.cpp(407): warning C4018: '<' : signed/unsigned mismatch
+     1>VideoAnaDoc.cpp(415): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>VideoAnaDoc.cpp(417): warning C4018: '<' : signed/unsigned mismatch
+     1>VideoAnaDoc.cpp(430): warning C4018: '<' : signed/unsigned mismatch
+     1>VideoAnaDoc.cpp(442): warning C4018: '<' : signed/unsigned mismatch
+     1>VideoAnaDoc.cpp(641): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>VideoAnaDoc.cpp(664): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         VideoAnaView.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /IRelease\ /nologo /fo"Release\VideoAna.res" VideoAna.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Release\VideoAna.exe" /INCREMENTAL:NO /NOLOGO strmiids.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Release\VideoAna.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Release\VideoAna.lib" /MACHINE:X86 /SAFESEH Release\VideoAna.res
+         Release\MainFrm.obj
+         Release\PicBox.obj
+         Release\stdafx.obj
+         Release\VideoAna.obj
+         Release\VideoAnaDoc.obj
+         Release\VideoAnaView.obj
+         Generating code
+         Finished generating code
+         VideoAna.vcxproj -> E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\Release\VideoAna.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\VideoAna.unsuccessfulbuild".
+         Touching "Release\VideoAna.lastbuildstate".
+     1>Done Building Project "E:\College\CS 455\CS455Final\VideoAnaFramework3_demo\VideoAna.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.75
