@@ -6,7 +6,11 @@ This program is meant to take a eulerian magnified video as input and determine
 the subject's heart rate. The video does not have to be cropped but it improves
 results if it is. The input must be an avi file. The project is built on top of
 the following framework. See this website to eulerian magnify a video: 
+
 http://people.csail.mit.edu/mrub/vidmag/
+
+The processing and calculations take place in VideoAnaDoc.cpp and they are explained
+in the accompanying pdf file.
 
 ================================================================================
     MICROSOFT FOUNDATION CLASS LIBRARY : VideoAna Project Overview
